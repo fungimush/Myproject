@@ -1,0 +1,21 @@
+Registration and Security module.
+
+1. Registration of User (Registration API)
+	Create a registration API that allows a new user to register using the following details:
+		First name
+		Surname
+		Date of Birth
+		Address
+		Phone number 
+		emailaddress
+		desired password
+
+2. Verification API
+	System should allow user to verify their email address by sending a 4 digit code to the user's email
+	Verification code should be entered into the API to activate user
+	
+3. List users
+		Api should be able to list Verified users, and users pending verification
+
+4. Forgot password API
+	User supplies their phone number and API generates a new password for them and sends it to their registered email address
