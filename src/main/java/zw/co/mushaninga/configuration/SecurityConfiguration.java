@@ -24,7 +24,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter{
     @Autowired
     private DataSource dataSource;
 
-    private final String USERS_QUERY =  "select emailaddress, password, active from user where emailaddress=?";
+    private final String USERS_QUERY = "select emailaddress, password, active from user where emailaddress=?";
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
